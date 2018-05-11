@@ -175,7 +175,7 @@ static int handler_symbfile(const char **args) {
         return -2;
     }
 
-    char buffer[0x1000];
+    char buffer[0x1];
 
     unsigned current_chunk = 0;
     unsigned total_chunks = size / sizeof(buffer);
